@@ -329,9 +329,12 @@ function transpile(
 		}
 	} catch (e) {
 		debug && console.error(e);
+		// TODO throw error
 		return src;
 	}
+	// TODO throw error
 	return src;
+
 }
 
 module.exports = transpile;
